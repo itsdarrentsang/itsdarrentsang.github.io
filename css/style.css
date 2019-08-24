@@ -380,17 +380,6 @@ html {
 }
 
 
-.clickable-demo{
-  font-weight: bolder;
-  color: salmon;
-}
-
-
-.clickable-demo:hover{
-  color: #A652E0;
-  color: #E9CF61
-  /* text-decoration: underline wavy; */
-}
 
 
 
@@ -469,6 +458,18 @@ html {
   /* border: #4FDCEE 5px dotted; */
 }
 
+.clickable-demo{
+  font-weight: bolder;
+  color: #2774AE;
+  text-decoration: underline;
+
+}
+
+
+.clickable-demo:hover{
+  color: #A652E0;
+  color: #FFD100
+}
 
 
 
