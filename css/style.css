@@ -1,0 +1,516 @@
+html, body {
+  margin: 0;
+  height: 100%
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+/* START LANDING PAGE */
+#landing-page {
+  background: linear-gradient(to bottom, #577284 0%, #FFFFFF 100%);
+  height: 100vh;
+  width: 100vw;
+
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+  /* border: #5208DE 5px dotted */
+}
+
+
+#landing-information{
+  display: inline-block;
+  position: relative;
+  padding-bottom: 100px;
+
+  font-family: 'Montserrat', sans-serif;
+
+  /* border: #A8F45E 5px dotted; */
+}
+
+
+
+#quick-summary{
+  /* border: #A40EBD 5px dotted */
+}
+
+#quick-summary p {
+  margin: 0px;
+
+  /* border: #29C6E3 5px dotted; */
+}
+
+.my-name{
+  font-size: 106px;
+
+  /* border: 5px dotted #5C2C3A */
+}
+
+.position{
+  font-size: 26px;
+
+  /* border: #CE68E6 5px dotted; */
+}
+
+
+#navigation{
+  margin: 2.5px 0 10px 0;
+
+  /* border: #48B857 5px dotted; */
+}
+
+#navigation a {
+  font-size: 24px;
+  border-right: 2px #FFFFFF solid;
+  padding: 0 20px 0 20px;
+  color: inherit;
+
+  /* border: #9440A2 5px dotted; */
+}
+
+
+#navigation a:last-of-type{
+  border: 0;
+
+  /* border: #DA5153 5px dotted */
+}
+
+#navigation a:hover{
+  color: white;
+
+  /* border: #FE760A 5px dotted */
+}
+
+
+#contact-information{
+  display: flex;
+  justify-content: space-around;
+
+  /* border: #7E768E 5px dotted; */
+}
+
+#contact-information a{
+
+  /* border: #B44EAD 5px dotted; */
+}
+
+
+
+
+
+.social-media-picture{
+	border: 5px solid transparent;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+
+  /* border: 5px dotted #8E1582 */
+}
+
+
+
+#contact-information:hover a{
+  opacity: .3;
+}
+
+
+.resumé:hover{
+  opacity: 1 !important;
+
+  border-color: #CC7226;
+  background: #CC7226;
+
+}
+
+.mail:hover{
+  opacity: 1 !important;
+
+  border-color: #254E70;
+  background: #254E70
+
+}
+
+.github:hover{
+  opacity: 1 !important;
+
+  border-color: #81CDCD;
+  background: #81CDCD;
+
+}
+.instagram:hover{
+  opacity: 1 !important;
+
+  border-color: #A56066;
+  background: #A56066;
+
+}
+
+.spotify:hover{
+  opacity: 1 !important;
+
+  border-color: #12AA4B;
+  background: #12AA4B;
+
+}
+
+
+#down-arrow{
+  position: absolute;
+  bottom: 25px;
+  right: 0px;
+  width: 100%;
+
+  /* outline: #A9AD46 5px dotted; */
+
+}
+
+.arrow-picture:hover{
+  background-color: #81B1B1;
+  /* background-color: beige; */
+  border-radius: 50%;
+}
+
+/* END LANDING PAGE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#all-information {
+  margin-left: 0%;
+  margin-right: 10%;
+  text-align: center;
+  font-size: 1em;
+
+  /* border: #FCC458 5px dotted */
+}
+
+#about, #education, #work-experience, #projects {
+  display: flex;
+  align-items: flex-start;
+
+  margin-top: 50px;
+  padding-top: 50px;
+
+  /* border: #16A9AB 5px dotted; */
+}
+
+
+
+.section-name {
+  margin: 0 25px 0 0;
+  top: 0;
+  width: 20%;
+  text-align: right;
+  font-size: 40px;
+  position: sticky;
+
+  /* border: #329D89 5px dotted; */
+}
+
+.total-picture {
+  flex-grow: 1;
+  margin-right: 25px;
+  position: relative;
+  text-align: center;
+  display: block;
+
+  /* border: 5px #0DF5ED dotted; */
+}
+
+.darren-picture {
+  padding: 0;
+  margin: 0;
+  /* max-width: 100%;
+  max-height: 100%; */
+
+  /* border: #92AA13 5px dotted; */
+}
+
+.caption {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+
+  /* border: #54DE17 5px dotted; */
+}
+
+.location{
+  /* border: #4D09E6 5px dotted */
+}
+
+
+
+.introduction {
+  flex-grow: 10;
+  width: 25%;
+  text-align: left;
+  margin: 0;
+
+  /* border: #194894 5px dotted; */
+}
+
+
+.introduction p:first-of-type{
+  margin: 0;
+
+  /* border: #1831AB 5px dotted; */
+}
+
+
+
+
+#all-schools, #all-companies, #all-projects {
+  flex: 1;
+
+  /* border: 5px #C7C9BF dotted */
+}
+
+#ucla, #skyline, #second-genome {
+  display: flex;
+  align-items: flex-start;
+
+  /* border: #7850F1 5px dotted; */
+}
+
+.school-picture, .company-picture {
+  margin: 0 25px 0 0;
+
+  /* border: #3E0E44 5px dotted; */
+}
+
+.school-name, .company-name {
+  flex-grow: 1;
+  margin: 0;
+  text-align: left;
+
+  /* border: #E22035 5px dotted; */
+}
+
+.school-year, .company-year {
+  flex-grow: 1;
+  margin: 0;
+  text-align: right;
+  /* font-style: italic; */
+
+  /* border: #AA2AC2 5px dotted; */
+}
+
+.company-information{
+  flex-grow: 1;
+
+  /* border: #23F5D5 5px dotted; */
+}
+
+.company-logistics{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+
+  /* border: 5px #B6DF50 dotted */
+}
+
+.company-description{
+  margin: 15px 0 0 0;
+  text-align: left;
+  /* margin-bottom: 10px; */
+
+  /* border: #59F46E 5px dotted; */
+}
+
+
+.clickable-demo{
+  font-weight: bolder;
+  color: salmon;
+}
+
+
+.clickable-demo:hover{
+  color: #A652E0;
+  color: #E9CF61
+  /* text-decoration: underline wavy; */
+}
+
+
+
+
+.project-row{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 56px;
+
+  /* border: #DF9C3B 5px dotted; */
+}
+
+
+
+/* Every project row will have a top margin EXCEPT the first */
+.project-row:first-of-type{
+  margin-top: 0;
+}
+
+
+#tic-tac-toe, #bill-splitter, #fantasy-points, #paint-replica {
+  flex-grow: 1;
+  width: 50%;
+
+  /* border: #975BE6 5px dotted; */
+}
+
+
+/* The first project on each row will have a right margin */
+.project-row div:first-child{
+  margin-right: 50px;
+
+  /* border: #9D574A 5px dotted */
+}
+
+
+
+
+.project-picture{
+  max-width: 100%;
+  max-height: 100%;
+
+  /* border: #52414B */
+}
+
+.project-logistics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+
+  /* border: #4BAB49 5px dotted; */
+}
+
+.project-name {
+  text-align: left;
+  font-weight: bolder;
+  margin: 0;
+
+  /* border: #7AF051 5px dotted; */
+}
+
+.project-date {
+  text-align: right;
+  margin: 0;
+  font-style: italic;
+
+  /* border: #78774F 5px dotted; */
+}
+
+.project-description {
+  /* width: 100% */
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
+  /* border: #4FDCEE 5px dotted; */
+}
+
+
+
+
+
+
+
+.buttons {
+  margin: 10px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+
+  /* border: #E63139 5px dotted; */
+}
+
+.language {
+  margin: 0;
+  border: 2px #6E7475 solid;
+  color: #6E7475;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+
+  /* border: #84FBD6 5px dotted; */
+}
+
+
+
+
+
+#footer {
+  margin-top: 25px;
+  padding-top: 75px;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #577284 250%);
+  display: flex;
+  justify-content: center;
+
+  /* border: #D7309B 5px dotted; */
+}
+
+.message{
+  font-size: 14px;
+
+  /* border: #D02437 5px dotted */
+}

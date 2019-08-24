@@ -1,0 +1,80 @@
+@keyframes fadeInFromInsideAnimation{
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.fadeInFromInside{
+  animation-name: fadeInFromInsideAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+ }
+
+
+@keyframes pullUpFromBelowAnimation {
+  0% {
+    top: 150px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.pullUpFromBelow{
+  visibility: hidden;
+  position: relative;
+  animation-duration: 2s;
+  animation-name: pullUpFromBelowAnimation;
+  animation-fill-mode: forwards;
+}
+
+
+.resumé{
+  animation-delay: .5s;
+}
+
+.mail{
+  animation-delay: .75s;
+}
+
+.github{
+  animation-delay: 1s;
+}
+
+.instagram{
+  animation-delay: 1.25s;
+}
+
+.spotify{
+  animation-delay: 1.5s;
+}
+
+
+
+
+
+
+@keyframes bounceAnimation {
+  0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-35px);
+    }
+}
+
+
+.bounce {
+  animation-name: bounceAnimation;
+  animation-delay: 4s;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
