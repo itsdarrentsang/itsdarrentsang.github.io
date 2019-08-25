@@ -126,45 +126,30 @@ html {
 
 
 
-#contact-information:hover a{
-  opacity: .3;
-}
-
-
 .resume:hover{
-  opacity: 1 !important;
-
   border-color: #CC7226;
   background: #CC7226;
 
 }
 
 .mail:hover{
-  opacity: 1 !important;
-
   border-color: #254E70;
   background: #254E70
 
 }
 
 .github:hover{
-  opacity: 1 !important;
-
   border-color: #81CDCD;
   background: #81CDCD;
 
 }
 .instagram:hover{
-  opacity: 1 !important;
-
   border-color: #A56066;
   background: #A56066;
 
 }
 
 .spotify:hover{
-  opacity: 1 !important;
-
   border-color: #12AA4B;
   background: #12AA4B;
 
