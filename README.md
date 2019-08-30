@@ -1,2 +1,2 @@
-[itsdarrentsang.github.io] (https://darrentsang.io)
+[itsdarrentsang.github.io] (https://www.darrentsang.io)
 This is my personal website!
