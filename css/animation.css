@@ -61,9 +61,9 @@
     }
 }
 
-.social-media-picture:hover{
+/* .social-media-picture:hover{
   animation: zoomInOutAnimation;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-}
+} */
