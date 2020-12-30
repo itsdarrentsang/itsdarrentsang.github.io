@@ -11,7 +11,7 @@
   animation-name: fadeInFromInsideAnimation;
   animation-duration: 1.5s;
   animation-timing-function: linear;
- }
+}
 
 
 @keyframes pullUpFromBelowAnimation {
