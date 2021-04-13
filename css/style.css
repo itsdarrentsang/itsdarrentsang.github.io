@@ -325,11 +325,11 @@ html {
 
 
 
-#projects a{
+#projects a, #about a{
   color: rgb(172, 45, 45)
 }
 
-#projects a:hover{
+#projects a:hover, #about a:hover{
   color: rgb(46, 138, 199);
   text-decoration: underline;
   /* border: #4FDCEE 5px dotted; */
