@@ -326,11 +326,11 @@ html {
 
 
 #projects a, #about a{
-  color: rgb(172, 45, 45)
+  color: rgb(46, 138, 199)
 }
 
 #projects a:hover, #about a:hover{
-  color: rgb(46, 138, 199);
+  color: rgb(172, 45, 45);
   text-decoration: underline;
   /* border: #4FDCEE 5px dotted; */
 }
@@ -348,7 +348,7 @@ html {
 .exp-row{
   display: flex;
 
-  border: #6f2c83 5px dotted;
+  /* border: #6f2c83 5px dotted; */
 }
 
 
@@ -370,7 +370,7 @@ html {
   /* border: #1961be 5px dotted; */
 }
 
-.exp-row:first-of-type, .proj-row:last-of-type{
+.exp-row:last-of-type, .proj-row:last-of-type{
   padding-bottom: 0;
   border: none
 }
